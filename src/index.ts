@@ -9,6 +9,7 @@ import "./components/perdiste-el"; // Importa el componente de perdiste
 import "./components/score"; // Importa el componente de score
 import "./components/button-jugar"; // Importa el componente de botón jugar
 import "./components/button-volver-a-jugar"; // Importa el componente de botón volver a jugar
+import "normalize.css";
 
 (function () {
   document.addEventListener("DOMContentLoaded", () => {
