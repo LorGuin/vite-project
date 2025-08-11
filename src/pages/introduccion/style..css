@@ -1,0 +1,49 @@
+body {
+    font-family: var(--fuenteSecundarias);
+}
+.titulo {
+    font-size: 5rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+    color: var(--color-primary);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+@media (max-width: 650px) {
+    .titulo {
+        font-size: 3rem;
+    }
+}
+
+.init-instrucciones_contenido {
+    font-size: 2.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+@media (max-width: 650px) {
+    .init-instrucciones_contenido {
+        font-size: 1.5rem;
+    }
+}
+.instructions-page__button {
+    margin-top: 4rem;
+}
+hands-el {
+    margin-top: -7rem;
+}
+
+@media (max-width: 780px) {
+    hands-el{
+        margin-top: -3rem;
+    }
+}
+.boton-reinicio{
+    margin-bottom: 3rem;
+}
+
+.init-instrucciones__section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

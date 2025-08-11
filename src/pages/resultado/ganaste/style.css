@@ -1,0 +1,27 @@
+
+.res-ganaste {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    background-color: #5ac54e;
+    height: 100vh; 
+    margin: 0; 
+}
+
+.res-ganaste__score {
+    margin-top: 1%;
+    text-align: center; 
+}
+
+.res-ganaste__button {
+    margin-top: 3%;
+    text-align: center; 
+}
+.res-ganaste {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  
+}
