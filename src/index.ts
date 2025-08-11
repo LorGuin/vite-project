@@ -1,4 +1,3 @@
-import "normalize.css";
 import { initRouter } from "./router.ts";
 import "./components/button-inicio"; // Importa el componente de botón personalizado
 import "./components/hands-el"; // Importa el componente de manos personalizado
