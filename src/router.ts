@@ -84,18 +84,15 @@ function renderPath(path: string): void {
 }
 
 function getCleanPathFromURL() {
-  // lógica para obtener el path de la URL y limpiarlo
   const fullPath = window.location.pathname;
-  // fefine basepath segun el entorno
-  const basepath = "/vanilla-router-base-path"; // Cambia esto según tu entorno
+  const basepath = "/vite-project"; // Cambia esto según tu repo
 
-  // verifica si el fullPath comienza con el basepath
   if (fullPath.startsWith(basepath)) {
-    //elimina el basepath del fullPath
     return fullPath.replace(basepath, "") || "/"; // Devuelve '/' si el path es vacío
   }
   return fullPath; // Devuelve el fullPath sin cambios si no comienza con el basepath
 }
+
 // Inicializa el router
 // Esta función se llama al cargar la aplicación para establecer la ruta inicial
 export function initRouter(): void {
